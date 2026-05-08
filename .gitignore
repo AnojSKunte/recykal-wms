@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+*.env
+.env.local
+*.json.key
+service-account*.json
+dist/
+.DS_Store

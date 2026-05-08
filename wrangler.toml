@@ -1,0 +1,31 @@
+name = "recykal-wms"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "public"
+
+[vars]
+# Non-secret environment variables
+APP_NAME = "Recykal WMS"
+SHEET_NAME_EMPLOYEE = "Employee Master"
+SHEET_NAME_PO = "PO Requisition"
+SHEET_NAME_ATT_LOG = "Attendance Log"
+SHEET_NAME_LOT_INV = "Lot Inventory"
+SHEET_NAME_PROC_LOG = "Processing Log"
+SHEET_NAME_PROC_DRAFT = "Processing Drafts"
+SHEET_NAME_WORKERS = "Workers"
+SHEET_NAME_PROCESSES = "Processes"
+SHEET_NAME_SUPPLIER = "Supplier Master Data"
+SHEET_NAME_MATERIAL = "Material Master"
+SHEET_NAME_UOM = "UOM"
+SHEET_NAME_APPROVER = "Approving Authority"
+SHEET_NAME_PROC_CENTER = "Processing Centers"
+
+# Secrets (set via: wrangler secret put SECRET_NAME)
+# GOOGLE_SERVICE_ACCOUNT_JSON  — the full JSON key file contents
+# GOOGLE_SHEET_ID              — your spreadsheet ID from the URL
+# GOOGLE_CLIENT_ID             — OAuth client ID
+# GOOGLE_CLIENT_SECRET         — OAuth client secret
+# SESSION_SECRET               — random 32-char string for signing sessions
+# GEMINI_API_KEY               — your Gemini API key
+# PO_DRIVE_FOLDER_ID           — Drive folder for PO images
+# ATT_DRIVE_FOLDER_ID          — Drive folder for attendance photos
+# PROC_DRIVE_FOLDER_ID         — Drive folder for processing photos

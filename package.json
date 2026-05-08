@@ -1,0 +1,13 @@
+{
+  "name": "recykal-wms",
+  "version": "1.0.0",
+  "description": "Recykal Warehouse Management System",
+  "scripts": {
+    "dev": "wrangler pages dev public --compatibility-date=2024-01-01",
+    "deploy": "wrangler pages deploy public",
+    "build": "echo 'No build step needed'"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
