@@ -3,7 +3,7 @@
 // /api/processing/pos?pc=        GET
 // /api/processing/inventory?lot= GET
 // /api/processing/drafts         GET/POST/DELETE
-import { sheetsGet, sheetsAppend, sheetsUpdate, jsonResponse, errorResponse } from '../_sheets.js';
+import { sheetsGet, sheetsAppend, sheetsUpdate, jsonResponse, errorResponse } from './_sheets.js';
 
 export async function onRequestGet(context) {
   const { request, env } = context;

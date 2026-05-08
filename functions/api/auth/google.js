@@ -4,7 +4,7 @@
 //  GET  /api/auth/google/callback → handle code, set session, redirect to app
 // ═══════════════════════════════════════════════════════════════════
 import { createSession } from '../_middleware.js';
-import { sheetsGet } from '../_sheets.js';
+import { sheetsGet } from './_sheets.js';
 
 export async function onRequestGet(context) {
   const { request, env } = context;

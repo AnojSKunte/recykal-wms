@@ -1,5 +1,5 @@
 // POST /api/attendance
-import { sheetsGet, sheetsAppend, sheetsUpdate, driveUpload, jsonResponse, errorResponse } from '../_sheets.js';
+import { sheetsGet, sheetsAppend, sheetsUpdate, driveUpload, jsonResponse, errorResponse } from './_sheets.js';
 
 export async function onRequestPost(context) {
   const { request, env } = context;

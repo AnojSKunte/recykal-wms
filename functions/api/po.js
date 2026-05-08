@@ -1,6 +1,6 @@
 // POST /api/po          → submit new PO
 // GET  /api/po?action=  → handle approval/reject from email link
-import { sheetsGet, sheetsAppend, sheetsUpdate, driveUpload, jsonResponse, errorResponse } from '../_sheets.js';
+import { sheetsGet, sheetsAppend, sheetsUpdate, driveUpload, jsonResponse, errorResponse } from './_sheets.js';
 
 // ── Approval link handler (GET — no auth needed) ──────────────────
 export async function onRequestGet(context) {

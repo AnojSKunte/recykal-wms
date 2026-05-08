@@ -1,7 +1,7 @@
 // POST /api/gemini
 // Body: { prompt, context, mode }
 // mode: 'query' | 'suggest' | 'summarise'
-import { sheetsGet, jsonResponse, errorResponse } from '../_sheets.js';
+import { sheetsGet, jsonResponse, errorResponse } from './_sheets.js';
 
 export async function onRequestPost(context) {
   const { request, env } = context;

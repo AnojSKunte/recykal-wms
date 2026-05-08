@@ -1,5 +1,5 @@
 // GET /api/dashboard?centers=Center+A,Center+B
-import { sheetsGet, jsonResponse, errorResponse } from '../_sheets.js';
+import { sheetsGet, jsonResponse, errorResponse } from './_sheets.js';
 
 export async function onRequestGet(context) {
   const { request, env } = context;
