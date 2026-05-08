@@ -1,5 +1,5 @@
 // GET /api/formdata/processing
-import { sheetsGet, jsonResponse, errorResponse } from '.././_sheets.js';
+import { sheetsGet, jsonResponse, errorResponse } from '../../_sheets.js';
 
 export async function onRequestGet(context) {
   const { env } = context;
